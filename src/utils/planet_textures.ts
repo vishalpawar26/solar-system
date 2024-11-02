@@ -2,7 +2,7 @@ import { TextureLoader, CubeTextureLoader } from "three";
 
 const textureLoader = new TextureLoader();
 const cubeTextureLoader = new CubeTextureLoader().setPath(
-  "public/textures/milkyway-cube-map/"
+  "/textures/milkyway-cube-map/"
 );
 
 const mercuryTexture = textureLoader.load("/textures/2k_mercury.jpg");
