@@ -13,7 +13,6 @@ A basic solar system simulation created with **three.js** and **TypeScript**, pr
 
 - **three.js**: For 3D rendering and animation.
 - **TypeScript**: For enhanced readability and type-checking.
-- **Tweakpane**: For real-time adjustment of parameters (optional).
 
 ## Installation
 
