@@ -1,6 +1,6 @@
 import { Mesh } from "three";
 import { planets } from "../constants/planets";
-import { planetMeshes } from "../utils/planet_meshes";
+import { planetMeshes } from "../main";
 
 export const animatePlanets = () => {
   planetMeshes.map((planet, planetIndex) => {

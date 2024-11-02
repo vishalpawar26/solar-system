@@ -1,7 +1,7 @@
 import { Mesh } from "three";
 import { CSS2DObject } from "three/examples/jsm/Addons.js";
 import { planets } from "../constants/planets";
-import { planetMeshes } from "../utils/planet_meshes";
+import { planetMeshes } from "../main";
 
 export const showPlanetNames = () => {
   planetMeshes.forEach((planetMesh, planetIndex) => {

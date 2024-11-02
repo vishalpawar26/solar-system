@@ -5,13 +5,17 @@ import { CSS2DRenderer } from "three/examples/jsm/renderers/CSS2DRenderer.js";
 import { planetTextures } from "./utils/planet_textures";
 import { animatePlanets } from "./helper/animate_planets";
 import { showPlanetNames } from "./helper/show_planet_names";
+import { createPlanetMeshes } from "./utils/planet_meshes";
 
 // initialize variables
 export const planetTrails: THREE.Line[] = [];
 
 // initialize scene
-export const scene = new THREE.Scene();
+const scene = new THREE.Scene();
 scene.background = planetTextures.milkywayTexture;
+
+// create meshes of the planets
+export const planetMeshes = createPlanetMeshes(scene);
 
 // initialize camera
 const camera = new THREE.PerspectiveCamera(
