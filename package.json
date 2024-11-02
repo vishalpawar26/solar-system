@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://vishalpawar26.github.io/solar-system",
+  "homepage": "https://vishalpawar26.github.io/solar-system/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
